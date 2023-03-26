@@ -1,0 +1,68 @@
+.merch {
+    font-size: 250%;
+    margin-left: 600px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    margin-top: 100px;
+}
+
+.shirt {
+    margin-left: 320px;
+    margin-top: 20px;
+    overflow:scroll;
+    width: 250px;
+    height: 250px;
+}
+
+.shirt:hover {
+    transform: scale(1.1);
+}
+
+.shirttext {
+    margin-left: 400px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.price {
+    font-weight: bolder;
+    margin-left: 300px;
+}
+
+.button {
+    background-color: rgb(104, 224, 248);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-radius: 8px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.cofee {
+    margin-left: 750px;
+    margin-top: -10px;
+    overflow:scroll;
+    width: 250px;
+    height: 280px;
+}
+
+.price2 {
+    font-weight: bolder;
+    margin-left: 725px;
+}
+
+.cofee:hover {
+    transform: scale(1.1);
+}
+
+.cofeetext {
+    margin-left: 820px;
+    margin-top: -390px;
+    font-weight: bolder;
+    font-size: 150%;
+}

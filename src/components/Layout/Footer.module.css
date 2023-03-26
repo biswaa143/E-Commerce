@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(85, 208, 245, 0.822);
+    margin-top:  50px;
+    font-weight: bolder;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .brandname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 17rem;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+    width: 30%;
+    padding: 1rem;
+    justify-content: space-evenly;
+  }
+  
