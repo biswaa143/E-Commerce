@@ -11,13 +11,13 @@ const Merch = () => {
         <p className={classes.shirttext}>T-Shirt</p>
         <img src={Shirt} alt="Shirt" className={classes.shirt} />
         <p className={classes.price}>
-        $12.99 <button className={classes.button}>ADD TO CART</button>
+        $19.99 <button className={classes.button}>ADD TO CART</button>
         </p>
     
         <p className={classes.cofeetext}>Cofee Cup</p>
         <img src={Cofee} alt="Cofee" className={classes.cofee} />
         <p className={classes.price2}>
-        $12.99 <button className={classes.button}>ADD TO CART</button>
+        $6.99 <button className={classes.button}>ADD TO CART</button>
         </p>
 
         </>

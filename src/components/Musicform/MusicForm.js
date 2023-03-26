@@ -18,19 +18,19 @@ const MusicForm = () => {
       <p className={classes.album2}>Album 2</p>
       <img src={Album2} alt="Album 2" className={classes.img2} />
       <p className={classes.price2}>
-        $12.99 <button className={classes.button}>ADD TO CART</button>
+        $14.99 <button className={classes.button}>ADD TO CART</button>
       </p>
 
       <p className={classes.album3}>Album 3</p>
       <img src={Album3} alt="Album 3" className={classes.img3} />
       <p className={classes.price3}>
-        $12.99 <button className={classes.button}>ADD TO CART</button>
+        $9.99 <button className={classes.button}>ADD TO CART</button>
       </p>
 
       <p className={classes.album4}>Album 4</p>
       <img src={Album4} alt="Album 4" className={classes.img4} />
       <p className={classes.price4}>
-        $12.99 <button className={classes.button}>ADD TO CART</button>
+        $19.99 <button className={classes.button}>ADD TO CART</button>
       </p>
     </>
   );
