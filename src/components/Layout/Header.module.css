@@ -13,12 +13,16 @@
     margin-left: 440px;
 }
 
-.button {
+/* .button {
     color: rgb(228, 12, 12);
-    margin-left: 480px;
    background-color: aqua;
-}
-
+} */
+.icon {
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.5rem;
+  }
+  
 .music {
     font-size: 250%;
     margin-left: 600px;

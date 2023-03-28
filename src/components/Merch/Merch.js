@@ -3,7 +3,9 @@ import React from "react";
 import classes from "./Merch.module.css";
 import Shirt from "./Shirt.png";
 import Cofee from "./Cofee.png";
-const Merch = () => {
+import CartButton from "../Cart/CartButton";
+
+const Merch = (props) => {
     return (
         <>
         <p className={classes.merch}>MERCH</p>
@@ -19,7 +21,7 @@ const Merch = () => {
         <p className={classes.price2}>
         $6.99 <button className={classes.button}>ADD TO CART</button>
         </p>
-
+        <CartButton />
         </>
     );
 };

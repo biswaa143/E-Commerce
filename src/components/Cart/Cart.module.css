@@ -1,9 +1,20 @@
-.cart {
-    margin-left: 600px;
-    font-weight:bolder;
-    border-radius: 5px;
-    margin-top: 20px;
-    background-color: rgb(124, 122, 122);
-    color: aqua;
-    height: 40px;
-}
+.carttext {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 170px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .x {
+    color: antiquewhite;
+    background-color: brown;
+    margin-left: 410px;
+    margin-top: -320px;
+  }
+
+  .cart-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 20rem;
+    overflow: auto;
+  }

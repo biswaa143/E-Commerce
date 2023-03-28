@@ -1,0 +1,9 @@
+.cart {
+    margin-left: 600px;
+    font-weight:bolder;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgb(124, 122, 122);
+    color: aqua;
+    height: 40px;
+}

@@ -1,20 +1,11 @@
-import React, { useContext } from "react";
+import React from "react";
 
-import {
-  Nav,
-  Container,
-  Navbar,
-  Button,
-  Badge,
-} from "react-bootstrap";
-import CartContext from "../../Store/cart-context";
+import { Nav, Container, Navbar } from "react-bootstrap";
+// import Cart from "../Cart/Cart";
+import HeaderCartButton from "./HeaderCartButton";
 import classes from "./Header.module.css";
 
-const Header = () => {
-  const cartCtx = useContext(CartContext);
-  const numberOfCartItem = cartCtx.items.reduce((curNumber, item) => {
-    return curNumber + item.quantity;
-  }, 0);
+const Header = (props) => {
   return (
     <>
       <Navbar bg="black" expand="lg" variant="dark" style={{ height: "50px" }}>
@@ -30,13 +21,9 @@ const Header = () => {
               <h5>ABOUT</h5>
             </Nav.Link>
           </Nav>
-          <Button className={classes.button}>
-            Cart
-            <Badge>{numberOfCartItem}</Badge>
-          </Button>
+          <HeaderCartButton onClick={props.onShowCart} />
         </Container>
       </Navbar>
-
       <form className={classes.head}>
         <p>The Generics</p>
       </form>
